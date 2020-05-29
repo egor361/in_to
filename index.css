@@ -1,0 +1,144 @@
+@font-face {
+	font-family: "Lobster-Regular";
+	src: url("font/Lobster-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+           
+
+ body{
+        background-color:#6f4e37;
+        margin-left:20%;
+        margin-right:20%;
+        border: 6px dotted red;
+        padding: 10px 10px 10px 10px;
+        font-family:  Arial, sans-serif ;
+		font-size: large;
+		font-weight:bold;
+		line-height:1.3em;
+		
+    }
+	
+
+	h1{
+       
+	  /*text-decoration:underline black;
+	  border-bottom-style:solid;
+	  border-bottom-color: black;
+	  border-bottom-width:3px;
+	  padding-bottom:10px;
+	  margin-left:300px;
+	  margin-top:10px;
+	  margin-right:300px;*/
+	  
+	
+	   font-family: "Lobster-Regular";
+	   font-size:2em;
+	   text-align:center;
+	   
+    } 
+	#quarantee{
+		
+		/*border-style: dashed;*/
+		border-style:solid;
+		
+		border-radius:25px;
+		
+	    border-color:black;
+		border-width:3px;
+		background-color: #a7cece;
+		padding: 50px 30px 30px 30px ;
+		margin: 30px;
+		line-height:1.9em;
+		font-style:italic;
+		font-family: Georgia, "Times New Roman",Times,serif;
+		color:#444444;
+		text-align:justify;
+		background-image:url(images/image_67578.png);
+		background-repeat:no-repeat;
+		background-position: top left;
+		
+	}
+     
+	em{ 
+       font-family:serif;
+	}	
+   
+  a,{
+	   color:red;
+	   font-style:italic;
+       
+	     }
+   img{
+	   display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:auto;
+   }
+   .logo{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:auto;
+		max-height:90%;
+	  max-width:90%;
+	}
+	
+  
+  
+  h2 {
+    font-size: 1.4em;
+    margin: 30px;
+    padding: 0 0 11px;
+    position: relative;
+	text-align:center;
+}
+
+h2::after {
+    background-color: #8B0000; 
+    bottom: 0;
+    content: '';
+	border:2px solid black;
+	border-radius:5px;
+	padding:  0 75px;
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+	
+  
+}
+   img,object{
+	  max-height:90%;
+	  max-width:90%;
+	  
+  } 
+
+	/*h2{
+    border-bottom-length: 5px;
+    border-bottom-color: #efefef;    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+	}*/
+	
+	/*h2{
+    border-bottom: 50px;
+    border-bottom-color: #efefef;    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 0 0 10px;	
+	}*/
+	
+	
+	/*p { color: black;}
+    .greentea { color: green; }
+    p.blueberry {color: purple;}
+	p.raspberry { color: blue; }
+	p.greentea { color: green; }*/
