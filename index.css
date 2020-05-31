@@ -7,18 +7,18 @@
 
            
 
- body{
-        background-color:#6f4e37;
-        margin-left:20%;
-        margin-right:20%;
-        border: 6px dotted red;
-        padding: 10px 10px 10px 10px;
-        font-family:  Arial, sans-serif ;
-		font-size: large;
-		font-weight:bold;
-		line-height:1.3em;
+    body{
+         background-color:#6f4e37;
+         margin-left:20%;
+         margin-right:20%;
+         border: 6px dotted red;
+         padding: 10px 10px 10px 10px;
+         font-family:  Arial, sans-serif ;
+		 font-size: large;
+		 font-weight:bold;
+		 line-height:1.3em;
 		
-    }
+        }
 	
 
 	h1{
@@ -60,56 +60,68 @@
 		background-position: top left;
 		
 	}
-     
+    div{
+	 
+	   text-align:center;
+	  
+    }
+  
+ 
+   
+   a{
+	 color:#CD5C5C;
+	   font-style:italic;
+       font-size:1.1em;
+	   border-style:solid;
+	   border-color:black;
+	   padding:5px;
+	   border-width:2px;
+	   border-radius:5px;
+    }
+	
 	em{ 
        font-family:serif;
 	}	
    
-  a,{
-	   color:red;
-	   font-style:italic;
-       
-	     }
+ 
    img{
 	   display:block;
 		margin-left:auto;
 		margin-right:auto;
 		width:auto;
    }
-   .logo{
-		display:block;
-		margin-left:auto;
-		margin-right:auto;
-		width:auto;
-		max-height:90%;
-	  max-width:90%;
+    .logo{
+		  display:block;
+		  margin-left:auto;
+		  margin-right:auto;
+		  width:auto;
+		  max-height:90%;
+	      max-width:90%;
 	}
 	
   
   
-  h2 {
-    font-size: 1.4em;
-    margin: 30px;
-    padding: 0 0 11px;
-    position: relative;
-	text-align:center;
-}
+  h2{
+      font-size: 1.4em;
+      margin: 30px;
+      padding: 0 0 11px;
+      position: relative;
+	  text-align:center;
+    }
 
-h2::after {
-    background-color: #8B0000; 
-    bottom: 0;
-    content: '';
-	border:2px solid black;
-	border-radius:5px;
-	padding:  0 75px;
-    display: block;
-    height: 3px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%);
-	
-  
-}
+    h2::after {
+               background-color: #8B0000; 
+               bottom: 0;
+               content: '';
+	           border:2px solid black;
+	           border-radius:5px;
+	           padding:  0 75px;
+               display: block;
+               height: 3px;
+               left: 50%;
+               position: absolute;
+               transform: translate(-50%);
+	}
    img,object{
 	  max-height:90%;
 	  max-width:90%;
