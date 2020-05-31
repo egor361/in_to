@@ -9,12 +9,12 @@
 
  body{
         background-color:white;
-        margin-left:20%;
-        margin-right:20%;
+        margin-left:auto;
+        margin-right:auto;
         border: 6px dotted red;
         padding: 10px 10px 10px 10px;
         font-family:  Arial, sans-serif ;
-		font-size: large;
+		font-size: small;
 		font-weight:bold;
 		line-height:1.3em;
 		
@@ -34,7 +34,7 @@
 	  
 	
 	   font-family: "Lobster-Regular";
-	   font-size:2em;
+	   font-size:1.5em;
 	   text-align:center;
 	   
     } 
@@ -48,7 +48,7 @@
 	    border-color:black;
 		border-width:3px;
 		background-color: #a7cece;
-		padding: 50px 30px 30px 30px ;
+		padding: 55px 30px 30px 30px ;
 		margin: 30px;
 		line-height:1.9em;
 		font-style:italic;
@@ -80,15 +80,14 @@
 		display:block;
 		margin-left:auto;
 		margin-right:auto;
-		width:auto;
-		height:50px;
-	  width:40px;
+		height:25%;
+	    width:25%;
 	}
 	
   
   
   h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 30px;
     padding: 0 0 11px;
     position: relative;
@@ -99,11 +98,11 @@ h2::after {
     background-color: #8B0000; 
     bottom: 0;
     content: '';
-	border:2px solid black;
+	border:1px solid black;
 	border-radius:5px;
 	padding:  0 75px;
     display: block;
-    height: 3px;
+    height: 2.5px;
     left: 50%;
     position: absolute;
     transform: translate(-50%);
