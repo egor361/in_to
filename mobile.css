@@ -65,6 +65,11 @@
 	        -ms-hyphens:auto;
 		
 	}
+        .word{
+	      -moz-hyphens:auto;
+	      -webkit-hyphens:auto;
+	      -ms-hyphens:auto;
+         }
      
 	em{ 
        font-family:serif;
