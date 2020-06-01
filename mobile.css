@@ -60,18 +60,16 @@
 		background-image:url(images/image_67578.png);
 		background-repeat:no-repeat;
 		background-position: top left;
+		-moz-hyphens:auto;
+	        -webkit-hyphens:auto;
+	        -ms-hyphens:auto;
 		
 	}
      
 	em{ 
        font-family:serif;
 	}	
-  .word{
-	   -moz-hyphens:auto;
-	   -webkit-hyphens:auto;
-	   -ms-hyphens:auto;
-	
-    }
+
  div{
 	 
 	   text-align:center;
